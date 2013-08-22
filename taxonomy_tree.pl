@@ -2,7 +2,7 @@
 #
 # Output a newick string for any valid NCBI taxon ID or node name
 #
-# Example: perl getNCBIsubtree.pl "Homo Sapiens"  # automatically converts "Homo Sapiens to its NCBI node ID"
+# Example: perl taxonomy_tree.pl "Homo Sapiens"  # automatically converts "Homo Sapiens to its NCBI node ID"
 # Author: Bremen Braun
 use strict;
 use Bio::DB::Taxonomy;
